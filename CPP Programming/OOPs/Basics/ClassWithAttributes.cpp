@@ -7,14 +7,19 @@ class Student{
     string name;
     int rollNo;
 
+    // class variable
+    static string collage;
+
     Student(string n, int r){ // constructor
         name = n;
         rollNo = r;
+        collage = "RNSIT";
     }
 
     void printDetails(){
         cout << "Student name is " << name << endl;
         cout << "Student RollNo is " << rollNo << endl;
+        cout << "Student Collage is " << collage << endl;
     }
 
 };
