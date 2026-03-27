@@ -5,13 +5,13 @@ class Student{
     private: 
     string name;
     int usn;
-
+    
     public:
     Student(string n, int u){
         name = n;
         usn = u;
     }
-
+    
     //getter() ---> name (private)
     string getName(){
         return name;
@@ -34,5 +34,6 @@ int main(){
     cout << s1.getName() << endl;
     s1.setName("Pavan");
     s1.printDetails();
+
     return 0;
 }
